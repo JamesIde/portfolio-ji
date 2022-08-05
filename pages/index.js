@@ -68,7 +68,13 @@ export default function Home() {
               Bachelor of Information Technology (Networks and Cybersecurity)
               from{" "}
               <strong className="font-bold hover:cursor-pointer hover:text-[#BED600] duration-500">
-                Flinders University{" "}
+                <a
+                  href="https://www.flinders.edu.au/
+            "
+                  target="_#"
+                >
+                  Flinders University{" "}
+                </a>
               </strong>
             </p>
             <p className="text-md text-gray-700 mt-1 mb-2 italic">
@@ -88,6 +94,9 @@ export default function Home() {
                   can create projects, track their bugs and features, and add
                   tickets and comments.
                 </p>
+                {/* <p className="text-sm italic mb-1">
+                  Deployed on Heroku - slow to spin up...
+                </p> */}
                 <p className="font-bold text-md">Technology</p>
                 <p className="text-md italic">
                   React, Express, NodeJS, Mongoose, Tailwind
