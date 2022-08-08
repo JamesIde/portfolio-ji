@@ -99,7 +99,7 @@ export default function Home() {
                 </p> */}
                 <p className="font-bold text-md">Technology</p>
                 <p className="text-md italic">
-                  React, Express, NodeJS, Mongoose, Tailwind
+                  React, Express, NodeJS, MongoDB, Tailwindcss
                 </p>
               </div>
               <div className="inline-flex ">
@@ -128,7 +128,7 @@ export default function Home() {
                 </p>
                 <p className="font-bold text-md">Technology</p>
                 <p className="text-md italic">
-                  React, Redux, Express, NodeJS, Mongoose, Tailwind
+                  React, Redux, Express, NodeJS, MongoDB, Tailwindcss
                 </p>
               </div>
               <div className="inline-flex pl">
