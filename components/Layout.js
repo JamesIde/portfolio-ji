@@ -38,7 +38,7 @@ function Layout({ title, children }) {
               href="https://jamesaide.com"
               target="#"
             >
-              Personal
+              Blog{" "}
             </a>
           </div>
           <h1 className="text-center mt-4 mb-6">
@@ -51,7 +51,7 @@ function Layout({ title, children }) {
             ,{" "}
             <span className="hover:cursor-pointer hover:text-[#BED600] duration-500">
               <a href="https://tailwindcss.com/" target="#">
-                Tailwind{" "}
+                TailwindCSS{" "}
               </a>
             </span>{" "}
             and{" "}

@@ -94,9 +94,7 @@ export default function Home() {
                   can create projects, track their bugs and features, and add
                   tickets and comments.
                 </p>
-                {/* <p className="text-sm italic mb-1">
-                  Deployed on Heroku - slow to spin up...
-                </p> */}
+
                 <p className="font-bold text-md">Technology</p>
                 <p className="text-md italic">
                   React, Express, NodeJS, MongoDB, Tailwindcss
@@ -116,6 +114,41 @@ export default function Home() {
               </div>
             </div>
             <hr className="w-full mt-2" />
+
+            <div className="flex flex-row justify-between ">
+              <div>
+                <h2 className="font-bold mt-4">YouTube Trender</h2>
+                <p className="text-gray-700 max-w-md mt-2 mb-1">
+                  An interactive application that parses JSON metadata about
+                  Youtube videos. It uses maps, lists and comparators to sort,
+                  search and index the data. A GUI using the Java Swing
+                  framework allows the user to interact with the underlying data
+                  structures.
+                </p>
+                <p className="font-bold text-md">Technology</p>
+                <p className="text-md italic">Java</p>
+              </div>
+              <div className="inline-flex pl">
+                <p className="p-2 hover:cursor-pointer hover:text-[#BED600] duration-500">
+                  <a
+                    href="https://user-images.githubusercontent.com/50192239/138374096-c028b072-ca7d-40af-86f5-4b9804134cd6.gif"
+                    target="_blank"
+                  >
+                    Demo
+                  </a>
+                </p>
+                <p className="p-2 hover:cursor-pointer hover:text-[#BED600] duration-500">
+                  <a
+                    href="https://github.com/JamesIde/youtube_trender"
+                    target="#"
+                  >
+                    GitHub{" "}
+                  </a>
+                </p>
+              </div>
+            </div>
+            <hr />
+
             <div className="flex flex-row justify-between ">
               <div>
                 <h2 className="font-bold mt-4">Riftwar Cycle Bookstore</h2>
@@ -144,31 +177,6 @@ export default function Home() {
               </div>
             </div>
             <hr className="w-full mt-2" />
-            <div className="flex flex-row justify-between ">
-              <div>
-                <h2 className="font-bold mt-4">YouTube Trender</h2>
-                <p className="text-gray-700 max-w-md mt-2 mb-1">
-                  An interactive application that parses JSON metadata about
-                  Youtube videos. It uses maps, lists and comparators to sort,
-                  search and index the data. A GUI using the Java Swing
-                  framework allows the user to interact with the underlying data
-                  structures.
-                </p>
-                <p className="font-bold text-md">Technology</p>
-                <p className="text-md italic">Java</p>
-              </div>
-              <div className="inline-flex pl">
-                <p className="p-2"></p>
-                <p className="p-2 hover:cursor-pointer hover:text-[#BED600] duration-500">
-                  <a
-                    href="https://github.com/JamesIde/youtube_trender"
-                    target="#"
-                  >
-                    GitHub{" "}
-                  </a>
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </Layout>
