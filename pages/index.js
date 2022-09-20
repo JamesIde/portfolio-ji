@@ -97,7 +97,7 @@ export default function Home() {
 
                 <p className="font-bold text-md">Technology</p>
                 <p className="text-md italic">
-                  React, Express, NodeJS, MongoDB, Tailwindcss
+                  React, Redux, Express, NodeJS, MongoDB, Tailwindcss
                 </p>
               </div>
               <div className="inline-flex">
@@ -116,39 +116,34 @@ export default function Home() {
             <hr className="w-full mt-2" />
             <div className="flex flex-row justify-between ">
               <div>
-                <h2 className="font-bold mt-4">Riftwar Cycle Bookstore</h2>
+                <h2 className="font-bold mt-4">HiddenVilla</h2>
                 <p className="text-gray-700 max-w-md mt-2 mb-1">
-                  An ecommerce website dedicated to popular fiction novels by
-                  author Raymond E Feist. Key features include user
-                  authentication, order creation, order management and the
-                  integration of Stripe Payment API to track order statuses
-                  through custom webhooks.
+                  A mobile-first hotel room booking system built with Angular.
+                  This is a full-stack TypeScript application where users can
+                  view and book hotel rooms and make payments with stripe. User
+                  authentication and authorization is implemented with access
+                  and refresh tokens with cookies.
                 </p>
                 <p className="font-bold text-md">Technology</p>
                 <p className="text-md italic">
-                  React, Redux, Express, NodeJS, MongoDB, Tailwindcss
+                  Angular, Express, NodeJS, Prisma, PlanetScale (serverless
+                  mySQL), MaterialUI
                 </p>
               </div>
-              <div className="inline-flex">
+              <div className="inline-flex pl">
                 <span className="p-2 hover:cursor-pointer hover:text-[#BED600] duration-500">
-                  <a
-                    href="https://riftwar-cycle-bookstore.netlify.app/"
-                    target="#"
-                  >
-                    Live{" "}
+                  <a href="https://hidden-villa-1.web.app/" target="#">
+                    Live
                   </a>
                 </span>
                 <span className="p-2 hover:cursor-pointer hover:text-[#BED600] duration-500">
-                  <a
-                    href="https://github.com/JamesIde/riftwar-cycle-bookshop"
-                    target="#"
-                  >
+                  <a href="https://github.com/JamesIde/hidden-villa" target="#">
                     GitHub{" "}
                   </a>
                 </span>
               </div>
             </div>
-            <hr className="mt-2 border-1" />
+            <hr className="w-full mt-2" />
             <div className="flex flex-row justify-between ">
               <div>
                 <h2 className="font-bold mt-4">YouTube Trender</h2>
@@ -182,6 +177,33 @@ export default function Home() {
               </div>
             </div>
             <hr className="w-full mt-2" />
+            <div className="flex flex-row justify-between ">
+              <div>
+                <h2 className="font-bold mt-4">Riftwar Cycle Bookstore</h2>
+                <p className="text-gray-700 max-w-md mt-2 mb-1">
+                  An ecommerce website dedicated to popular fiction novels by
+                  author Raymond E Feist. Key features include user
+                  authentication, order creation, order management and the
+                  integration of Stripe Payment API to track order statuses
+                  through custom webhooks.
+                </p>
+                <p className="font-bold text-md">Technology</p>
+                <p className="text-md italic">
+                  React, Redux, Express, NodeJS, MongoDB, Tailwindcss
+                </p>
+              </div>
+              <div className="inline-flex">
+                <span className="p-2 hover:cursor-pointer hover:text-[#BED600] duration-500">
+                  <a
+                    href="https://github.com/JamesIde/riftwar-cycle-bookshop"
+                    target="#"
+                  >
+                    GitHub{" "}
+                  </a>
+                </span>
+              </div>
+            </div>
+            <hr className="mt-2 border-1" />
           </div>
         </div>
       </Layout>
