@@ -118,11 +118,11 @@ export default function Home() {
               <div>
                 <h2 className="font-bold mt-4">HiddenVilla</h2>
                 <p className="text-gray-700 max-w-md mt-2 mb-1">
-                  A mobile-first hotel room booking system built with Angular.
-                  This is a full-stack TypeScript application where users can
-                  view and book hotel rooms and make payments with stripe. User
-                  authentication and authorization is implemented with access
-                  and refresh tokens with cookies.
+                  A mobile-first room booking system built with Angular and
+                  Express. This is a full-stack TypeScript application where
+                  users can view and book hotel rooms and make payments with
+                  Stripe Payment API. Implemented user authentication and
+                  authorization with access tokens, refresh tokens, and cookies.
                 </p>
                 <p className="font-bold text-md">Technology</p>
                 <p className="text-md italic">
