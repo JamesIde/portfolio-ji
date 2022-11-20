@@ -86,28 +86,39 @@ export default function Home() {
             <h2 className="font-bold text-3xl md:text-4xl tracking-tight mb-1 text-black dark:text-white">
               Projects
             </h2>
+            <hr className="w-full mt-2" />
             <div className="flex flex-row justify-between ">
               <div>
-                <h2 className="font-bold mt-4">Get Tracked</h2>
+                <h2 className="font-bold mt-4">Conduit</h2>
                 <p className="text-gray-700 max-w-md mt-2 mb-1">
-                  A project manager/bug tracker built with the MERN stack. Users
-                  can create projects, track their bugs and features, and add
-                  tickets and comments.
-                </p>
+                  An article sharing platform, similar to Medium.
+                  </p>
+                  <p className="text-gray-700 max-w-md mt-2 mb-1">
+                    JWT authentication with access tokens, refresh tokens, and token revoking capability.
+                  </p>
+                  <p className="text-gray-700 max-w-md mt-2 mb-1">
+                  Relational features such as following users, liking articles, and commenting on articles. 
+                  </p>
+                  <p className="text-gray-700 max-w-md mt-2 mb-1">
+                  Server-side pagination and caching to reduce latency and improve performance.
+                  </p>
+                  <p className="text-gray-700 max-w-md mt-2 mb-1">
+                  Continuous Deployment (CD) using Google Cloud Build to build and deploy Docker containers to Google Cloud Run.
+                  </p>
 
                 <p className="font-bold text-md">Technology</p>
                 <p className="text-md italic">
-                  React, Redux, Express, NodeJS, MongoDB, Tailwindcss
+                  React, NestJS, PostgreSQL, TypeORM, Docker, TailwindCSS 
                 </p>
               </div>
               <div className="inline-flex">
                 <span className="p-2 hover:cursor-pointer hover:text-[#BED600] duration-500">
-                  <a href="https://get-tracked.netlify.app/" target="#">
+                  <a href="https://conduit-nu.vercel.app/" target="#">
                     Live{" "}
                   </a>
                 </span>
                 <span className="p-2 hover:cursor-pointer hover:text-[#BED600] duration-500">
-                  <a href="https://github.com/JamesIde/get-tracked" target="#">
+                  <a href="https://github.com/JamesIde/Conduit" target="#">
                     GitHub{" "}
                   </a>
                 </span>
@@ -119,15 +130,20 @@ export default function Home() {
                 <h2 className="font-bold mt-4">HiddenVilla</h2>
                 <p className="text-gray-700 max-w-md mt-2 mb-1">
                   A mobile-first room booking system built with Angular and
-                  Express. This is a full-stack TypeScript application where
+                  Express.
+                </p>
+                <p className="text-gray-700 max-w-md mt-2 mb-1">
+                A TypeScript application where
                   users can view and book hotel rooms and make payments with
-                  Stripe Payment API. Implemented user authentication and
+                  Stripe Payment API.
+                </p>
+                <p className="text-gray-700 max-w-md mt-2 mb-1">
+                Implemented user authentication and
                   authorization with access tokens, refresh tokens, and cookies.
                 </p>
                 <p className="font-bold text-md">Technology</p>
                 <p className="text-md italic">
-                  Angular, Express, NodeJS, Prisma, PlanetScale (serverless
-                  mySQL), MaterialUI
+                  Angular, Express, NodeJS, Prisma, mySQL, MaterialUI
                 </p>
               </div>
               <div className="inline-flex pl">
@@ -149,8 +165,14 @@ export default function Home() {
                 <h2 className="font-bold mt-4">YouTube Trender</h2>
                 <p className="text-gray-700 max-w-md mt-2 mb-1">
                   An interactive application that parses JSON metadata about
-                  Youtube videos. It uses maps, lists and comparators to sort,
-                  search and index the data. A GUI using the Java Swing
+                  Youtube videos. 
+                </p>
+                <p className="text-gray-700 max-w-md mt-2 mb-1">
+                It uses maps, lists and comparators to sort,
+                  search and index the data. 
+                </p>
+                <p className="text-gray-700 max-w-md mt-2 mb-1">
+                A GUI using the Java Swing
                   framework allows the user to interact with the underlying data
                   structures.
                 </p>
@@ -169,33 +191,6 @@ export default function Home() {
                 <span className="p-2 hover:cursor-pointer hover:text-[#BED600] duration-500">
                   <a
                     href="https://github.com/JamesIde/youtube_trender"
-                    target="#"
-                  >
-                    GitHub{" "}
-                  </a>
-                </span>
-              </div>
-            </div>
-            <hr className="w-full mt-2" />
-            <div className="flex flex-row justify-between ">
-              <div>
-                <h2 className="font-bold mt-4">Riftwar Cycle Bookstore</h2>
-                <p className="text-gray-700 max-w-md mt-2 mb-1">
-                  An ecommerce website dedicated to popular fiction novels by
-                  author Raymond E Feist. Key features include user
-                  authentication, order creation, order management and the
-                  integration of Stripe Payment API to track order statuses
-                  through custom webhooks.
-                </p>
-                <p className="font-bold text-md">Technology</p>
-                <p className="text-md italic">
-                  React, Redux, Express, NodeJS, MongoDB, Tailwindcss
-                </p>
-              </div>
-              <div className="inline-flex">
-                <span className="p-2 hover:cursor-pointer hover:text-[#BED600] duration-500">
-                  <a
-                    href="https://github.com/JamesIde/riftwar-cycle-bookshop"
                     target="#"
                   >
                     GitHub{" "}
