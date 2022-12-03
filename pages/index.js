@@ -65,9 +65,9 @@ export default function Home() {
                   Chamonix IT Solutions
                 </a>
               </p>
-              <p className="text-gray-700 dark:text-gray-200 mt-3 mb-4">
+              {/* <p className="text-gray-700 dark:text-gray-200 mt-3 mb-4">
                 July 2022 -
-              </p>
+              </p> */}
             </div>
             <h2 className="font-bold text-3xl md:text-4xl tracking-tight mb-1 text-black dark:text-white">
               Education
