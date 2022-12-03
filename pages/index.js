@@ -115,7 +115,7 @@ export default function Home() {
                 </p>
                 <p className="text-gray-700 max-w-md mt-2 mb-1">
                   Deployed as a Kubernetes Cluster to Google Kubernetes Engine
-                  with an Nginx Ingress Controller for load balancing, routing
+                  with a Nginx Ingress Controller for load balancing, routing
                   and serving static files.
                 </p>
                 <p className="font-bold text-md">Technology</p>
