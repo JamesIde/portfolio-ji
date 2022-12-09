@@ -99,11 +99,10 @@ export default function Home() {
               <div>
                 <h2 className="font-bold mt-4">Conduit</h2>
                 <p className="text-gray-700 max-w-md mt-2 mb-1">
-                  An scaleable article sharing platform, similar to Medium.
+                  An article sharing platform.
                 </p>
                 <p className="text-gray-700 max-w-md mt-2 mb-1">
-                  JWT authentication with access tokens, refresh tokens, and
-                  token revoking capability.
+                  JWT authentication with access tokens and cookies.
                 </p>
                 <p className="text-gray-700 max-w-md mt-2 mb-1">
                   Relational features such as following users, liking articles,
@@ -114,9 +113,9 @@ export default function Home() {
                   improve performance.
                 </p>
                 <p className="text-gray-700 max-w-md mt-2 mb-1">
-                  Deployed as a Kubernetes Cluster to Google Kubernetes Engine
-                  with a Nginx Ingress Controller for load balancing, routing
-                  and serving static files.
+                  Deployed as a Kubernetes Cluster with a Nginx Ingress
+                  Controller for load balancing, routing and serving static
+                  files.
                 </p>
                 <p className="font-bold text-md">Technology</p>
                 <p className="text-md italic">
